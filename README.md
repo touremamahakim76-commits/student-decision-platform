@@ -1,33 +1,56 @@
-# student-decision-platform
+# Student Decision Support Platform
 
-## Project Description
-This project aims to develop a decision support platform for students.  
-It compares housing, universities, and libraries to help students choose the best options based on budget and accessibility.
+## Project Overview
+This project aims to build a decision support platform for students using data analysis.  
+The platform helps students compare housing options, universities and libraries in order to make better decisions about where to live and study.
 
-## Objectives
-- Compare student housing
-- Analyze cost of living around universities
-- Identify accessible libraries
+## Project Objectives
+- Compare student housing near universities
+- Analyze cost of living across different areas
+- Identify accessible libraries and services
 - Provide a data-driven decision support system
 
-## Methodology
-The project follows an Agile methodology (Scrum) with several sprints:
-
-Sprint 1: Data collection and preparation  
-Sprint 2: Data analysis  
-Sprint 3: Visualization and presentation
+## Data Sources
+The data used in this project comes from several sources:
+- OpenStreetMap via Overpass API
+- Open data about Paris universities
+- Open data about libraries
+- Student housing datasets
 
 ## Data Pipeline
-Data Collection → Data Cleaning → Data Aggregation → Analysis → Visualization → Decision Support
+Data Sources  
+↓  
+Web Scraping / API  
+↓  
+Data Cleaning  
+↓  
+Database Integration  
+↓  
+Data Analysis  
+↓  
+Visualization  
+↓  
+Decision Support
 
 ## Tools
-Python  
-Pandas / NumPy  
-Power BI  
-PowerPoint  
-GitHub
+- Python
+- Pandas / NumPy
+- Power BI
+- Matplotlib / Seaborn
+- GitHub
 
 ## Team Organization
-Each team member is responsible for a specific part of the project.
+Each team member works on a specific part of the project.
 
-Member 6: Documentation and Presentation
+Member 6: Documentation & Presentation
+
+## Repository Structure
+docs → technical documentation  
+src → Python scripts  
+data → datasets  
+database → SQL schema and queries  
+assets → images and diagrams  
+visualization → dashboards and maps  
+slides → presentation  
+meeting-notes → agile planning
+
