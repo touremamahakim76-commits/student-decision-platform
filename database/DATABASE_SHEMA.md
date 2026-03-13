@@ -2,8 +2,10 @@
 
 Main entities of the project:
 
-Universite  
-Bibliotheque  
+Universite 
+
+Bibliotheque
+
 Appartement  
 
 Optional entity:
