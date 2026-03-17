@@ -86,15 +86,7 @@ Jira was used to manage the project:
 
 👉 https://yodayasmine.atlassian.net/jira/software/projects/PDDD/boards/34/backlog?atlOrigin=eyJpIjoiNzA5ZTI2NTJmNDUxNGMxOGIxMzAwODZlMmI1NGUzZWIiLCJwIjoiaiJ9
 
----
 
-## Repository
-
-GitHub link:
-
-👉 https://ton-lien-github
-
----
 
 ## Conclusion
 
