@@ -1,23 +1,25 @@
-CREATE TABLE universite (
-    id INT PRIMARY KEY,
+-- Création de la table universites
+CREATE TABLE universites (
+    id INT AUTO_INCREMENT PRIMARY KEY,
     nom VARCHAR(255),
-    ville VARCHAR(255),
-    latitude FLOAT,
-    longitude FLOAT
+    lat FLOAT,
+    lon FLOAT
 );
 
-CREATE TABLE bibliotheque (
-    id INT PRIMARY KEY,
+-- Création de la table bibliotheques
+CREATE TABLE bibliotheques (
+    id INT AUTO_INCREMENT PRIMARY KEY,
     nom VARCHAR(255),
-    ville VARCHAR(255),
-    latitude FLOAT,
-    longitude FLOAT
+    lat FLOAT,
+    lon FLOAT
 );
 
-CREATE TABLE appartement (
-    id INT PRIMARY KEY,
-    nom VARCHAR(255),
-    adresse VARCHAR(255),
-    latitude FLOAT,
-    longitude FLOAT
+-- Création de la table logements
+CREATE TABLE logements (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    lat FLOAT,
+    lon FLOAT,
+    surface FLOAT,
+    prix_m2 FLOAT,
+    loyer_estime FLOAT
 );
